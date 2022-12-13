@@ -57,7 +57,7 @@
   
   /* Style the right section to be scrollable vertically */
   #right-section {
-    padding-top: 1%;
+    padding-top: 0.73%;
     margin-left: 50%; /* Set the left margin to be the same as the width of the left section */
     width:50%;
     height: 100%;

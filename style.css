@@ -1,0 +1,116 @@
+*{
+    font-family: 'Neue Haas Grotesk Text', sans-serif;
+  }
+  
+  #lastname{
+    margin-top:-18px;
+  }
+  
+  #left-section-name{
+    font-size: 19px;
+    color: rgba(31, 31, 31, 0.92);
+    font-family: "Neue Haas Grotesk", Icons;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    
+    position: fixed;
+    padding-left:1.5%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 11.5%;
+  }
+  
+  #left-section-projects{
+    font-size: 20px;
+    color: rgba(31, 31, 31, 0.92);
+    font-family: "Neue Haas Grotesk", Icons;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 35%;
+    margin-left: 15%;
+  }
+  
+  #left-section-footer{
+    font-size: 19px;
+    color: rgba(31, 31, 31, 0.92);
+    font-family: "Neue Haas Grotesk", Icons;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    
+    position:fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    top:90%;
+    margin-left: 15%;
+    width:34%;
+  }
+  
+  /* Style the right section to be scrollable vertically */
+  #right-section {
+    padding-top: 1%;
+    margin-left: 50%; /* Set the left margin to be the same as the width of the left section */
+    width:50%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow: hidden;
+    
+  }
+  
+  img{
+    justify-content:left;
+    width:100%;
+    height:10;
+  }
+
+  @media screen and (max-width:600px) {
+    #left-section-name{
+      font-size: 19px;
+      color: rgba(31, 31, 31, 0.92);
+      font-family: "Neue Haas Grotesk", Icons;
+      line-height: 1.2;
+      font-style: normal;
+      font-weight: 400;
+      
+      position: static;
+      padding-left:1.5%;
+      width: 25%;
+    }
+    
+    #left-section-projects{ 
+      position: static;
+      width: 75%;
+      margin-left: 25%;
+      margin-top: -14.4%;
+    }
+    
+    #left-section-footer{
+      position:static;
+      margin-left: 25%;
+      width: 75%;
+    }
+      /* Style the right section to be scrollable vertically */
+    #right-section {
+      padding-top: 1%;
+      margin-left: 0%; /* Set the left margin to be the same as the width of the left section */
+      width:100%;
+      height: 100%;
+      overflow-y: scroll;
+      overflow: hidden;
+    }
+    
+    img{
+      justify-content:left;
+      width:100%;
+      height:10;
+    }
+  }
